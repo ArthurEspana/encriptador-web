@@ -1,0 +1,94 @@
+.inicio-pagina ,.pie-pagina, .indicaciones{
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 40px;
+    color: aliceblue;
+    padding: 15px 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.nombre-alumno{
+    font-weight: normal;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+}
+
+
+.titulo-input ,.titulo-output{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.input-texto ,.output-texto{
+    display: block;
+    width: 97%;
+    border: 4px solid gray;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input ,.output{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.indicaciones{
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 5px;
+}
+button{
+    display: inline-block;
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 20px;
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.7);
+    border-color: aliceblue;
+    border-width: 1px;
+    padding: 5px auto;
+    margin-top: 10px;
+    margin-left: 17px;
+    width: 97%;
+    align-self: flex-start;
+}
+button:hover{
+    font-size: 22px;
+    background: rgba(255, 255, 255, 0.3);
+
+}
+button:hover:active{
+    pointer-events: none;
+    background: #52357a;
+}
+
+
+.boton-copiar{
+    margin-top: 66px;
+    padding: 5px;
+}
+
+.pie-pagina{
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+}
